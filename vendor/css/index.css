@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(253, 151, 17);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.contenido{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    padding: 10px;
+    font-weight: 400;
+    background: rgb(55, 255, 0);
+}
+
+aside{
+    padding: 10px;
+    font-weight: 400;
+    background: rgb(0, 238, 255);
+}
+
+.footer-new {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+#text-dark{
+    color: #d42222;
+    text-decoration: none;
+}
